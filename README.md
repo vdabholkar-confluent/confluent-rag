@@ -15,6 +15,8 @@ This is a real-world example of how to build real-time RAG pipelines using **Con
 
 ## 🏗️ Architecture Overview
 
+![FluentRAG Architecture](FluentRAG_Architecture.jpg)
+
 ```
 User Input → Web Scraper → Kafka → Flink AI Processing → MongoDB → RAG Assistant
                                       ↓
