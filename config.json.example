@@ -1,0 +1,23 @@
+{
+  "kafka_bootstrap_servers": "pkc-xxxxx.region.aws.confluent.cloud:9092",
+  "kafka_api_key": "YOUR_KAFKA_API_KEY",
+  "kafka_api_secret": "YOUR_KAFKA_API_SECRET",
+  "kafka_topic": "url_markdown_raw",
+  "chunker_api_url": "http://localhost:8000/api/v1/chunk",
+  "scraper_api_url": "http://localhost:8000/api/v1/scrape",
+  "schema_registry_url": "https://psrc-xxxxx.region.gcp.confluent.cloud",
+  "schema_registry_api_key": "YOUR_SR_API_KEY",
+  "schema_registry_api_secret": "YOUR_SR_API_SECRET",
+  "openai_api_key": "sk-proj-YOUR_OPENAI_API_KEY",
+  "mongodb_uri": "mongodb+srv://username:password@cluster.mongodb.net/",
+  "mongodb_database": "confluent_embeddings",
+  "mongodb_collection": "confluent_docs",
+  "function_model": "gpt-4o",
+  "response_model": "gpt-4o-mini",
+  "embedding_model": "text-embedding-ada-002",
+  "max_query_iterations": 3,
+  "relevance_threshold_high": 0.8,
+  "relevance_threshold_medium": 0.6,
+  "vector_search_limit": 10,
+  "vector_search_min_score": 0.65
+}
